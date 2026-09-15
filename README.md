@@ -94,36 +94,7 @@ The following classification approaches will be investigated, including:
 * Gradient Boosting / XGBoost
 * Imbalance-aware approaches such as class weighting and SMOTE
 
-## Class Imbalance
-
-Fraudulent transactions represent only a small proportion of the dataset.
-
-The project will therefore investigate different approaches to class imbalance, including:
-
-* class weighting
-* random undersampling
-* SMOTE
-* comparison of models trained using different imbalance strategies
-
-Resampling techniques will only be applied to the training data to avoid information leakage into the test set.
-
----
-
-## Threshold Optimisation
-
-A standard classification threshold of 0.5 is not necessarily appropriate for fraud detection.
-
-The project will investigate how changing the decision threshold affects:
-
-* precision
-* recall
-* F1-score
-* the number of false positives
-* the number of false negatives
-
-This provides a more realistic assessment of the trade-offs involved in fraud detection.
-
----
+--
 
 ## Explainability
 
